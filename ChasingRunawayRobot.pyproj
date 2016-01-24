@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42a6af3b-7e5e-4655-999f-569528b740fe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>1_NoiselessPredictionProgram.py</StartupFile>
+    <StartupFile>1_NoiselessPrediction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="1_NoiselessPredictionProgram.py" />
+    <Compile Include="1_NoiselessPrediction.py" />
+    <Compile Include="2_AddingNoise.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="helpers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="matrix.py">
       <SubType>Code</SubType>
     </Compile>
