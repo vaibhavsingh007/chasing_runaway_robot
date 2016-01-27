@@ -71,6 +71,9 @@ def get_best_xy(OTHER):
     h = distance_between(OTHER[1], OTHER[2])    # Visualize the triangle(s)
     b = distance_between(OTHER[0], OTHER[2]) / 2
 
+    if h == 0:
+        return OTHER[1]
+
     # Averages
     temp = h
     if OTHER[3][0] != None:
@@ -169,9 +172,10 @@ test_target = robot(2.1, 4.3, 0.5, 2*pi / 34.0, 1.5)
 measurement_noise = 0.05 * test_target.distance
 test_target.set_noise(0.0, 0.0, measurement_noise)
 
-from helpers import *
-helpers.demo_grading(estimate_next_pos, test_target)
-# Use local method instead for without visualization
+#from helpers import *
+#helpers.demo_grading(estimate_next_pos, test_target)
+# Use local method instead for no visualization
+#demo_grading(estimate_next_pos, test_target)
 
 
 

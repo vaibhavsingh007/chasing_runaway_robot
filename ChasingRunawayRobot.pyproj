@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42a6af3b-7e5e-4655-999f-569528b740fe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>1_NoiselessPrediction.py</StartupFile>
+    <StartupFile>ChasingWithPlan_4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="1_NoiselessPrediction.py" />
-    <Compile Include="2_AddingNoise.py">
+    <Compile Include="ChasingWithPlan_4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NoiselessPrediction_1.py" />
+    <Compile Include="AddingNoise_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TheChaseBegins_3.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="helpers.py">
