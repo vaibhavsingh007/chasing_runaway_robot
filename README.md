@@ -11,7 +11,7 @@ Advanced AI for Robotics - PROJECT.
  A Traxbot looks like a small tank. Each one is about half a meter long and drives
  on two continuous metal tracks. In order to maneuver itself, a Traxbot can do one
  of two things: it can drive in a straight line or it can turn. So to make a 
- right turn, A Traxbot will drive forward, stop, turn 90 degrees, then continue
+ right turn, A Traxbot will drive forward, stop, turn x degrees, then continue
  driving straight.
 
  This series of questions involves the recovery of a rogue Traxbot. This bot has 
