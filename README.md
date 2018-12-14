@@ -2,7 +2,7 @@
 Advanced AI for Robotics - PROJECT. 
 
  ----------
-##Background
+## Background
  
  A robotics company named Trax has created a line of small self-driving robots 
  designed to autonomously traverse desert environments in search of undiscovered
@@ -26,7 +26,7 @@ Advanced AI for Robotics - PROJECT.
  
  ----------
  
-##Following are the URLs to more info about the project:
+## Following are the URLs to more info about the project:
  
 - https://youtu.be/nsEiu2Pzj5k
 - https://www.udacity.com/wiki/cs373/project?nocache
